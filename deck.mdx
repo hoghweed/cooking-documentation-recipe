@@ -9,6 +9,8 @@ import start from './images/kristine-tumanyan-YmgpoBhJAkI-unsplash.jpg';
 import meme from './images/meme-orly.png';
 import vuepress from './images/Vuepress.png';
 import profile from './images/manu.png';
+import structure from './images/structure.png';
+import packagejson from './images/package-json.png';
 
 # Cooking Documentation, What's the Recipe?
 
@@ -198,9 +200,46 @@ Vuepress is a **static site generator** with a Vue powered theming system <br />
 
 # Getting started
 
-```bash
+## Get installed & setup
 
+```bash
+# install vuepress globally
+$ yarn global add vuepress 
+
+# create a markdown file
+echo '# Hello VuePress' > README.md
+
+# start writing
+vuepress dev
+
+# build to static files
+vuepress build
 ```
+---
+
+# Getting started
+
+## How to start
+
+- .vuepress/config.js (config center, could be made also using Markdown)
+- README.md (source of the content)
+- package.json (manage dependencies)
+
+<img src={structure} style={{maxHeight: '30%', maxWidth: '30%'}} ></img>
+
+---
+
+# Getting started
+
+## Deployment
+
+- Github pages
+- Netflify
+- Surge
+- Now
+- Firebase
+
+<img src={packagejson} style={{maxHeight: '30%', maxWidth: '30%'}} ></img>
 
 ---
 
