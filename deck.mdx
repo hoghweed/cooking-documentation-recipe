@@ -7,7 +7,8 @@ export const theme = {
 import { Image, Split, Steps } from 'mdx-deck';
 import start from './images/kristine-tumanyan-YmgpoBhJAkI-unsplash.jpg';
 import meme from './images/meme-orly.png';
-import vuepress from './images/Vuepress.png'
+import vuepress from './images/Vuepress.png';
+import profile from './images/manu.png';
 
 # Cooking Documentation, What's the Recipe?
 
@@ -38,6 +39,8 @@ Developer <Image src="images/heart.png" style={{ display: 'icon'}} > </Image> in
 <Split> 
 
 <img src='https://images.unsplash.com/photo-1549590143-d5855148a9d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80' style={{maxHeight: '60%', maxWidth: '60%'}}></img>
+
+<img src={profile} style={{maxHeight: '30%', maxWidth: '30%'}}></img>
 
 I started as a *cooker* in *'95*, I became a developer after a long journey so cooking and making all the things good & organized is a must
 
@@ -161,7 +164,7 @@ a long time to jump in and **scares us about what we could expect to eat**
 
 - ***proximity*** - close to the project
 - ***accessibility*** - free to access with no restrictions
-- ***Layout & Style***
+- ***Layout & Style*** - attractive with 
 - ***Navigation***
 - ***Searchability*** (bad word..)
 
@@ -171,18 +174,9 @@ a long time to jump in and **scares us about what we could expect to eat**
 
 # Introduce Vuepress
 
-<Split>
+<img src={vuepress} style={{maxHeight: '50%', maxWidth: '50%', marginLeft: '0'}} ></img>
 
-<img src={vuepress} style={{maxHeight: '80%', maxWidth: '50%'}} ></img>
-
-```bash
-npm i -D vuepress
-
-touch "# Hello from VuePress" > readme.md
-```
-
-
-</Split>
+Vuepress is a **static site generator** with a Vue powered theming system <br /> that comes with a default theme **optimized for technical documentation** 
 
 ---
 
