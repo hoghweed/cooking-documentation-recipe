@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cooking Documentation Recipe slides deck created with MDX",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  },
+  "keywords": [],
+  "author": "Manuel S. Martone",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1",
+    "mdx-deck-theme-awesomeness": "^1.1.5"
+  }
+}
